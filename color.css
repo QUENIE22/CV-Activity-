@@ -1,28 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arial:wght@400;700&display=swap');
 
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Arial', sans-serif;
 }
 
 body{
 	background: #c4c4c4;
-	font-size: 14px;
-	line-height: 20px;
+	font-size: 15px;
+	line-height: 25px;
 }
 
 .resume_wrapper{
 	display: flex;
-	width: 800px;
-	margin: 50px auto;
+	width: 1000px;
+	margin: 55px auto;
 	background: #fff;
-	padding: 10px;
+	padding: 11px;
 }
 
 .resume_wrapper .resume_left{
-	width: 35%;
+	width: 40%;
 	background:#A3C1AD ;
 }
 
@@ -40,8 +40,8 @@ body{
 .resume_wrapper .resume_title{
 	color: white;
 	text-transform: uppercase;
-	font-weight: 700;
-	font-size: 16px;
+	font-weight: 600;
+	font-size: 18px;
 	margin-bottom: 10px;
 	letter-spacing: 4px;
 }
@@ -81,23 +81,23 @@ body{
 }
 
 .resume_wrapper .resume_left .resume_contact .resume_info:last-child{
-	 margin-top: 10px;
+	 margin-top: 11px;
 }
 
 .resume_wrapper .resume_left .resume_contact .resume_subtitle{
 	color: #fff;
-	margin-bottom: 2px;
+	margin-bottom: 3px;
 }
 
 .resume_wrapper .resume_left .resume_skills .skills_list{
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 5px;
+	margin-bottom: 4px;
 }
 
 .resume_wrapper .resume_left .resume_skills .skills_list .skills_bar p{
 	position: relative;
-	width: 125px;
+	width: 124px;
     height: 20px;
     background: #fff;
 }
@@ -112,10 +112,9 @@ body{
 }
 
 .resume_wrapper .resume_right{
-	width: 65%;
+	width: 60%;
 	padding: 20px 40px;
 	color: black;
-	background:;
 }
 
 .resume_wrapper .resume_right .resume_namerole .name{
@@ -159,7 +158,7 @@ body{
 }
 
 .resume_wrapper .resume_right .resmue_interests {
-	font-size: 38px;
+	font-size: 40px;
 	color: #01752;
 	margin-bottom: 10px;
 }
@@ -205,6 +204,6 @@ body{
 		padding: 0;
 	}
 	.resume_wrapper .resume_right .resmue_interests{
-		font-size: 24px;
+		font-size: 20px;
 	}
 }
